@@ -1,0 +1,118 @@
+.account-page {
+  min-height: 100vh;
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+.account-container {
+  min-height: calc(100vh - 70px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.account-card {
+  width: 100%;
+  max-width: 450px;
+
+  background-color: #181818;
+
+  padding: 40px;
+
+  border-radius: 10px;
+
+  text-align: center;
+
+  box-sizing: border-box;
+}
+
+.profile-icon {
+  width: 80px;
+  height: 80px;
+
+  margin: 0 auto 20px;
+
+  border-radius: 50%;
+
+  background-color: #e50914;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 35px;
+}
+
+.account-card h1 {
+  margin: 0 0 10px;
+}
+
+.account-text {
+  color: #aaaaaa;
+  margin-bottom: 30px;
+}
+
+.account-info {
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+
+  margin-bottom: 25px;
+}
+
+.account-info div {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 15px 0;
+}
+
+.account-info span {
+  color: #999999;
+}
+
+.account-info strong {
+  color: #ffffff;
+}
+
+.account-logout,
+.back-home {
+  width: 100%;
+  height: 45px;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  font-weight: bold;
+}
+
+.account-logout {
+  background-color: #e50914;
+  color: #ffffff;
+
+  margin-bottom: 12px;
+}
+
+.account-logout:hover {
+  background-color: #b20710;
+}
+
+.back-home {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.back-home:hover {
+  background-color: #444444;
+}
+
+@media (max-width: 500px) {
+  .account-card {
+    padding: 30px 20px;
+  }
+}
